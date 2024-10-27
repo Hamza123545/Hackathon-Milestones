@@ -1,0 +1,100 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #e6f7ff; /* Light blue background */
+}
+
+h1 {
+    text-align: center;
+    color: #2e2e2e; /* Darker text for better contrast */
+    margin-bottom: 40px;
+    font-size: 2.5em; /* Larger heading */
+}
+
+form {
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    max-width: 600px;
+    border-top: 5px solid #007acc; /* Accent color */
+}
+
+fieldset {
+    border: none; /* Remove default border */
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f3faff; /* Slightly different background */
+    border-radius: 10px;
+}
+
+legend {
+    font-weight: bold;
+    color: #007acc; /* Use accent color */
+    font-size: 1.4em; /* Increased font size */
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    color: #333;
+    font-weight: 500;
+}
+
+input,
+textarea {
+    margin-top: 8px;
+    padding: 12px;
+    width: 100%; /* Full width */
+    border: 1px solid #007acc; /* Accent border */
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: #f0faff; /* Light blue input background */
+    font-size: 16px;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #005f73;
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 95, 115, 0.5);
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: #007acc;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #005f73;
+}
+
+#resume-display {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    border: none;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#resume-display h2 {
+    color: #007acc; /* Accent color for headings */
+    margin-bottom: 10px;
+    border-bottom: 2px solid #e0e0e0; /* Subtle bottom border */
+    padding-bottom: 5px;
+}
